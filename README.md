@@ -20,18 +20,4 @@ python src/generate_data.py
 python src/train.py
 streamlit run app/app.py
 
----
 
-## 4️⃣ Sauvegarder correctement
-Dans TextEdit :
-- `⌘ + S`
-- Ferme TextEdit
-
----
-
-## 5️⃣ Vérifier que le README est bien rempli
-
-Dans le Terminal :
-
-```bash
-cat README.md
