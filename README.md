@@ -34,12 +34,14 @@ over normal behavior and injected anomalies.
 
 ## How to Run Locally
 
-1. Generate synthetic sensor data:
-```bash
 python src/generate_data.py
-Train the anomaly detection model:
+python src/train.py
+streamlit run app/app.py
 
-Limitations and Future Improvements
+The application will be available at:
+http://localhost:8501
+
+##Limitations and Future Improvements
 Sensor data is synthetic and not collected from real systems
 
 Anomaly thresholds are generic and not calibrated with domain experts
@@ -49,13 +51,13 @@ No real-time streaming or alerting mechanism is implemented
 Possible extensions include real-time data ingestion, alerting systems,
 threshold calibration with engineering teams, and deployment on operational platforms.
 
-Technologies
-Python
+##Technologies
+- Python
 
-pandas
+- pandas
 
-numpy
+- numpy
 
-scikit-learn
+- scikit-learn
 
-Streamlit
+- Streamlit
